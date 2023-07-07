@@ -1,5 +1,16 @@
 class Casino {
     // Write code here
+    constructor(name){
+        this.timesPlayed = 0
+}
+playGame(betAmount){
+        if (Math.random() <= .5){
+            console.log(this.name + 'wins')
+        }
+ else {
+    console.log('the player wins' + betAmount)
+}
+}
 };
 
 // TESTS
